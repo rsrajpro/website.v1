@@ -1,0 +1,37 @@
+
+header nav ul li a{
+    list-style: none;
+    display: inline-block;
+}
+header nav ul li{
+    display: inline;
+    background-color: burlywood;
+    padding: 10px;
+}
+.maindiv{
+    padding-top: 30px;
+}
+.bg{
+    
+    background-color: rgb(247, 244, 244);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 3.5in;
+    width: 2in;
+
+}
+.stid{
+    background-color: rgb(255, 1, 1);
+    color: cornsilk;
+    height: auto;
+    width: 100px;
+    border-radius: 5px;
+    
+}
+img{
+    height: 1in;
+}
+table, th, td{
+    border: 1px solid black;
+}
