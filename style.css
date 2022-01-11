@@ -1,4 +1,9 @@
-
+body{
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 header nav ul li a{
     list-style: none;
     display: inline-block;
@@ -34,4 +39,22 @@ img{
 }
 table, th, td{
     border: 1px solid black;
+}
+input{
+    width: 40%;
+    margin: 9px 0px;
+    padding: 17px 17px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 11px;
+    border-color: rgb(230, 153, 37)
+    
+}
+.b2{
+    margin: ;
+}
+.btn1{
+    width: 30%;
+    margin: 10px;
+    padding: 17px;
+    border-radius: 11px;
 }

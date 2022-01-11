@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+    
+    
+
+
+.d0{
+    display: inline-flex;
+
+}
+.d1{
+    height: auto;
+    width: 40%;
+    background-color: coral;
+    margin-right: 2px;
+
+}
+.d2{
+    height: auto;
+    width: 40%;
+    background-color: coral;
+}
+img{
+    width: 70px;
+}
