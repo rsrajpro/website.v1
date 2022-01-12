@@ -47,18 +47,17 @@ button{
     cursor: pointer;
 }
 .d0{
-    display: inline-flex;
-
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 .d1{
-    height: auto;
-    width: 40%;
     background-color: coral;
     margin-right: 2px;
 
 }
 .d2{
-    height: auto;
-    width: 40%;
     background-color: coral;
 }
