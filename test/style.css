@@ -48,16 +48,21 @@ button{
 }
 .d0{
     display: flex;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+    background-color: brown;
+    width: 700px;
 }
-.d1{
-    background-color: coral;
-    margin-right: 2px;
+.col-1{
+    background-color: blue;
+    flex-basis: 45%;
 
 }
-.d2{
-    background-color: coral;
+.col-1 h2, p{
+    background-color: chartreuse;
+    width: 40%;
+
+}
+.col-2{
+    flex-basis: 45%;
+    align-items: left;
 }

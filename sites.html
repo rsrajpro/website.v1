@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sites - Swadhind</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/dcbb299fff.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'popins',sans-serif;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            padding: 0 8%;
+        }
+        .container h1{
+            text-align: center;
+            padding-top: 5%;
+            margin-bottom: 60px;
+            font-weight: 600;
+            position: relative;
+        }
+        .container h1::after{
+            content: '';
+            background-color: #303ef7;
+            width: 100px;
+            height: 5px;
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .row{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 30px;
+        }
+        .service{
+            text-align: center;
+            padding: 25px 10px;
+            font-size: 14px;
+            cursor: pointer;
+            background: transparent;
+            transition: transform 0.5s, background 0.5s;
+        }
+        .service i{
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: #303ef7;
+        }
+        .service h2{
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .service:hover{
+            background-color: #303ef7;
+            color: #fff;
+            transform: scale(1.05);
+        }
+        .service:hover i{
+            color: #fff;
+        }
+        .link{
+            text-decoration: none;
+            background-color: #303ef7;
+            color: #fff;
+            padding: 10px;
+            border-radius: 15px;
+            font-weight: 600;
+        }
+        .service:hover .link{
+            background-color:#fff;
+            color: #303ef7;
+        }
+
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Our website</h1>
+        <div class="row">
+            <div class="service">
+                <i class="fab fa-foursquare"></i>
+                <h2>FHX Brawl</h2>
+                <P>This is a Nulls Brawl blog site.</P><br><br>
+                <a href="https://www.fhxbrawl.xyz" class="link">Go Link</a>
+            </div>
+            <div class="service">
+                <i class="fab fa-neos"></i>
+                <h2>Nulls Brawler</h2>
+                <P>This is a Nulls Brawl website site.</P><br><br>
+                <a href="https://nullsbrawler.com" class="link">Go Link</a>
+            </div>
+            <div class="service">
+                <i class="fab fa-cuttlefish"></i>
+                <h2>Clash Mini</h2>
+                <P>This is a Clash Mini apk website site.</P><br><br>
+                <a href="https://www.clashminiapk.xyz" class="link">Go Link</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-bold"></i>
+                <h2>Blog Poka</h2>
+                <P>This is a Bangla blog site.</P><br><br>
+                <a href="https://blogpoka.com" class="link">Go Link</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-bold"></i>
+                <h2>Background Photo</h2>
+                <P>This is a Background Photo site.</P><br><br>
+                <a href="https://rsp-background.blogspot.com/" class="link">Go Link</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-bold"></i>
+                <h2>Bangla Problem Solved</h2>
+                <P>This is a Bangla Problem Solved Sites.</P><br><br>
+                <a href="https://bangla-problem-solved.blogspot.com/" class="link">Go Link</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-bold"></i>
+                <h2>Bangla Applications</h2>
+                <P>This is a Bangla Applications Sites.</P><br><br>
+                <a href="https://bangla-applications.blogspot.com/" class="link">Go Link</a>
+            </div>
+            <div class="service">
+                <i class="fab fa-facebook"></i>
+                <h2>ReBrawl</h2>
+                <P>This is a Brawl Stars mods apk site.</P><br><br>
+                <a href="https://rebrawl.blogspot.com/" class="link">Go Link</a>
+            </div>
+        </div>
+
+        </div>
+      
+    </body>
+</html>

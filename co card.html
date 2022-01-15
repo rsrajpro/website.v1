@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>box</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            .container{
+                width: 100%;
+                height: 100vh;
+                background: brown;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .co-card{
+                background: chocolate;
+                color: #fff;
+                text-align: center;
+                padding: 40px 80px;
+                border-radius: 15px;
+                position: relative;
+            }
+            .cur1, .cur2{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                background: brown;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .cur1{
+                left: -15px;
+            }
+            .cur2{
+                right: -15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="co-card">
+                <h2>Hello</h2>
+                <p>test</p>
+                <div class="cur1"></div>
+                <div class="cur2"></div>
+            </div>
+        </div>
+
+    </body>
+</html>
